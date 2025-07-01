@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans bg-purple text-white;
+}
+
+@layer utilities {
+  .gradient-overlay {
+    @apply w-full h-full absolute inset-0 pointer-events-none opacity-20 blur-2xl bg-gradient-to-r from-[#710F99] via-[#340858] to-[#2E063E] animate-gradientMotion bg-[length:200%_200%];
+  }
+}
