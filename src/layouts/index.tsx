@@ -1,5 +1,5 @@
 // src/layouts/DefaultLayout.tsx
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 import bgImage from "../assets/grid-bg.png";
 
 type LayoutProps = {

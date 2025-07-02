@@ -1,16 +1,16 @@
 // pages/Dashboard.tsx
 
-import HeartIcon from "../assets/heart.svg";
-import DiamondIcon from "../assets/diamond.svg";
-import TimeIcon from "../assets/time.svg";
-import SettingsIcon from "../assets/setting.svg";
-import WalletIcon from "../assets/funds.svg";
-import LogoIcon from "../assets/app-logo.svg";
-import LogOutIcon from "../assets/logout.svg";
-import LeftArrowIcon from "../assets/left-arrow.svg";
+import HeartIcon from "@assets/heart.svg";
+import DiamondIcon from "@assets/diamond.svg";
+import TimeIcon from "@assets/time.svg";
+import SettingsIcon from "@assets/setting.svg";
+import WalletIcon from "@assets/funds.svg";
+import LogoIcon from "@assets/app-logo.svg";
+import LogOutIcon from "@assets/logout.svg";
+import LeftArrowIcon from "@assets/left-arrow.svg";
 
-import Card from "../components/Card";
-import PointsBox from "../components/PointsBox";
+import Card from "@components/Card";
+import PointsBox from "@components/PointsBox";
 
 export default function Dashboard() {
   return (

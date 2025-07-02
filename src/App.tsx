@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Welcome from "./pages/Welcome";
 import Dashboard from "./pages/Dashboard";
-import Loading from "./components/Loading"; // Make sure this exists
+import Loading from "./components/Loading";
 
 function App() {
   const [screen, setScreen] = useState<"welcome" | "loading" | "dashboard">("welcome");
@@ -12,10 +12,10 @@ function App() {
 
       const loadingTimer = setTimeout(() => {
         setScreen("dashboard");
-      }, 2000); // Loading screen duration
+      }, 2000);
 
       return () => clearTimeout(loadingTimer);
-    }, 2000); // Welcome screen duration
+    }, 2000);
 
     return () => clearTimeout(welcomeTimer);
   }, []);

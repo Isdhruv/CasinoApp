@@ -1,6 +1,6 @@
 // pages/Welcome.tsx
 
-import IconTitle from "../components/IconTitle";
+import IconTitle from "@components/IconTitle";
 
 export default function Welcome() {
   return (

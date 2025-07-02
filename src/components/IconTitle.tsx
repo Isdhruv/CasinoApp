@@ -1,6 +1,6 @@
 // components/IconTitle.tsx
-import { ReactNode } from "react";
-import logo from "../assets/app-logo.svg";
+
+import logo from "@assets/app-logo.svg";
 type Props = {
   title: string;
   subtitle?: string;

@@ -1,6 +1,6 @@
 // components/Card.tsx
 
-import ArrowIcon from "../assets/arrow.svg"; // adjust path as per your project structure
+import ArrowIcon from "@assets/arrow.svg"; // adjust path as per your project structure
 import type { ReactNode } from "react";
 
 type CardProps = {
