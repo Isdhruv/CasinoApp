@@ -9,12 +9,16 @@ type Props = {
 
 export default function PointsBox({ title, icon, value }: Props) {
   return (
-    <div className="bg-violet text-white rounded-lg p-4 flex flex-col gap-2">
-      <div className="flex items-center gap-2 font-bold text-sm">
-        {icon}
+    <div className="bg-violet text-white rounded-xl py-5 px-6 flex flex-col gap-3">
+      <div className="font-semibold text-md ">
         {title.toUpperCase()}
       </div>
-      <div className="text-2xl font-semibold">{value}</div>
+      <div className="flex items-center gap-2">
+        {icon}
+        <span className="text-xl font-bold leading-10 tracking-[1px]">
+          {value}
+        </span>
+      </div>
     </div>
   );
 }

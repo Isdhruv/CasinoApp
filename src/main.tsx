@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App.tsx";
 import Layout from "./layouts/index.tsx";
 
+
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Layout>
