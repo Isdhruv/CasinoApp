@@ -7,17 +7,17 @@ export default {
         sans: ["Barlow", "sans-serif"],
       },
       fontSize: {
-        xl:'40px',
-        lg:'26px',
-        md: '22px',  
+        xl: "40px",
+        lg: "26px",
+        md: "22px",
       },
       colors: {
         violet: "#710F99",
         purple: "#2E063E",
         bluePurple: "#340858",
         white: "#FFFFFF",
-        transparentpurple:"#430B48",
-        purpleborder:"#A157C0",
+        transparentpurple: "#430B48",
+        purpleborder: "#A157C0",
       },
       animation: {
         gradientMotion: "gradientMotion 10s ease infinite",
@@ -35,9 +35,9 @@ export default {
       // backgroundSize: {
       //   "size-200": "200% 200%",
       // },
-       backgroundImage: {
-        'custom-pattern': "url('src/assets/bg-grid-2.png')",
-        'radial':"url('src/assets/radial-bg.png')"
+      backgroundImage: {
+        "custom-pattern": "url('/bg-grid-2.png')",
+        radial: "url('/radial-bg.png')",
       },
     },
   },
